@@ -1,0 +1,98 @@
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Contatos Qualquer Duvida</h2>
+  <ul class="employee-list">
+    <li>
+      <h3>João Silva</h3>
+      <p>Email: joao.silva@.com</p>
+      <p>Telefone: (11) 1234-5678</p>
+    </li>
+    <li>
+      <h3>Maicon de Paula</h3>
+      <p>Email: maicon.putrique@.com</p>
+      <p>Telefone: (11) 9876-5432</p>
+    </li>
+    <!-- Adicione mais funcionários conforme necessário -->
+  </ul>
+
+  <div class="contact-form">
+    <h2>Entre em Contato</h2>
+    <form>
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div>
+        <button type="submit">Enviar Mensagem</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
